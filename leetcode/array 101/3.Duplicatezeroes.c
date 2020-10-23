@@ -15,7 +15,7 @@ void duplicateZeros(int *arr, int arrSize)
             }
             i++;
         }
-        }
+    }
 }
 
 int main()
