@@ -31,15 +31,11 @@ int thirdMax(int *nums, int numsSize)
             count++;
         }
     }
-
-    if (tmax == INT_MIN)
+    if (count != 0)
     {
-        if (count != 0)
-        {
-            return tmax;
-        }
-        tmax = max;
+        return tmax;
     }
+    tmax = max;
 
     return tmax;
 }
